@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Chat from "./Chat";
@@ -27,7 +27,6 @@ function App() {
               </Route>
             </Switch>
           </Router>
-          {/*  Router */}
         </div>
       )}
     </div>
