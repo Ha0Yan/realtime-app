@@ -26,7 +26,7 @@ function Login() {
           alt=""
         ></img>
         <div className="login-text">
-          <h1> Sign in to WeChat</h1>
+          <h1> Sign in to Realtime Chat</h1>
         </div>
         <Button type="submit" onClick={signIn}>
           Sign in with Google
